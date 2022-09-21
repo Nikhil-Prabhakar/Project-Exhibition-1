@@ -66,6 +66,23 @@ body{
     font-size: 44px;
 }
 
+.box{
+    position: relative;
+    margin: 20px;
+    margin-bottom: 100px;
+}
+
+.myLeftCtn .myInput{
+    width: 230px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 50px;
+    border: none;
+    -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+}
+
 .myLeftCtn .myInput:focus{
     outline: none;
 }
@@ -111,4 +128,12 @@ body{
     -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
     -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
     box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+}
+
+.butt_out:hover{
+    border: 2px solid #eecbff;
+}
+
+.butt_out:focus{
+    outline: none;
 }
