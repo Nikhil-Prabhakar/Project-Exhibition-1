@@ -1,0 +1,127 @@
+body{
+    background-color: antiquewhite;
+}
+
+
+/* Navigation Bar*/
+
+.Nav-bar{
+    position: absolute;
+    margin: 0;
+    border: 0;
+    background-color: antiquewhite;
+    height: 200px;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.container-fluid{
+    padding:0%  0% 0% 0%;
+}
+
+/*Login Box*/
+
+.Login-section{
+    width: 100%;
+    height:510px;
+}
+
+/*Hostel Blocks*/
+
+#features{
+    text-align: center;
+}
+
+/* Carousel*/
+
+.Carousel-image{
+    width: 10%;
+    height: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15% 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffffff;
+}
+
+/* Sign In Box*/
+
+.form-signin {
+    text-align: center;
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.bg-image{
+  /* The image used */
+  background-image: url("cssimg/BH1.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-primary, .btn-primary:active {
+    background-color: #8064A2 !important;
+}
+
+.btn-primary:hover, .btn-primary:visited{
+    background-color: #ef8172;
+}
+
+
+label {
+    color: #333;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px;
+    }
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+
+}
+
+/* .card{
+	margin-left: 0px;
+	margin-right: 0px;
+} */
+
+/* .card:hover{
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    padding: 1rem!important;
+    margin-bottom: 3rem!important;
+    border-radius: 0.25rem!important;
+    background-color: #fff!important;
+    width: auto;
+    height: auto;
+
+} */
+
+footer{
+    text-align: center;
+}
+
+.footer{
+    background-color: indigo;
+    padding: 0.3%;
+}
