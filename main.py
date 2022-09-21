@@ -24,7 +24,7 @@ def index():
             info = cursor.fetchone()
             if info is not None:
                 if info['email'] == username and info['password'] == password:
-                    session['loginsuccess'] = info['id']
+                    session['loginsuccess'] = True
                     return redirect(url_for('profile'))
             else:
                 return redirect(url_for('index'))
